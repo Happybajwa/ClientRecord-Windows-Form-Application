@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace ClientRecord
 {
-    public partial class Form3 : Form
+    public partial class LoginForm : Form
     {
-        public Form3()
+        public LoginForm()
         {
             InitializeComponent();
         }
@@ -31,7 +31,7 @@ namespace ClientRecord
             {
                 if(user.Password.Equals(passwordTextBox.Text))
                 {
-                    Form1 form = new Form1();
+                    mainForm form = new mainForm();
                     form.Show();
                     this.Hide();
                 }
@@ -48,9 +48,14 @@ namespace ClientRecord
 
         private void registerButton_Click(object sender, EventArgs e)
         {
-            Form2 form = new();
+            registerUserForm form = new();
             this.Hide();
             form.ShowDialog();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

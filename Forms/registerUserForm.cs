@@ -11,22 +11,13 @@ using System.Windows.Forms;
 
 namespace ClientRecord
 {
-    public partial class Form2 : Form
+    public partial class registerUserForm : Form
     {
-        public Form2()
+        public registerUserForm()
         {
             InitializeComponent();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private async void addUserButton_Click(object sender, EventArgs e)
         {
@@ -60,7 +51,7 @@ namespace ClientRecord
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 form = new();
+            LoginForm form = new();
             this.Hide();
             form.ShowDialog();
         }
