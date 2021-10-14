@@ -38,8 +38,8 @@ namespace ClientRecord
             this.registerButton = new System.Windows.Forms.Button();
             this.loginButton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.exitButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -107,6 +107,7 @@ namespace ClientRecord
             this.forgotLink.TabIndex = 6;
             this.forgotLink.TabStop = true;
             this.forgotLink.Text = "Forgot Password";
+            this.forgotLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.forgotLink_LinkClicked);
             // 
             // registerButton
             // 
@@ -142,18 +143,6 @@ namespace ClientRecord
             this.panel1.Size = new System.Drawing.Size(970, 131);
             this.panel1.TabIndex = 4;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(204)))), ((int)(((byte)(95)))));
-            this.label1.Location = new System.Drawing.Point(224, 21);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(501, 30);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Welcome to Client Management System";
-            // 
             // exitButton
             // 
             this.exitButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
@@ -170,6 +159,18 @@ namespace ClientRecord
             this.exitButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.exitButton.UseVisualStyleBackColor = false;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(204)))), ((int)(((byte)(95)))));
+            this.label1.Location = new System.Drawing.Point(224, 21);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(501, 30);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Welcome to Client Management System";
             // 
             // LoginForm
             // 

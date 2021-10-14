@@ -30,11 +30,11 @@ namespace ClientRecord.Forms
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.dataGrid = new System.Windows.Forms.DataGridView();
             this.deleteClientTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).BeginInit();
             this.SuspendLayout();
@@ -46,11 +46,21 @@ namespace ClientRecord.Forms
             this.panel1.Controls.Add(this.deleteClientTextBox);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(925, 609);
+            this.panel1.Size = new System.Drawing.Size(841, 572);
             this.panel1.TabIndex = 0;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(204)))), ((int)(((byte)(95)))));
+            this.label3.Location = new System.Drawing.Point(336, 106);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(226, 20);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Please Double Click to Delete";
             // 
             // dataGrid
             // 
@@ -61,17 +71,17 @@ namespace ClientRecord.Forms
             this.dataGrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.dataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(204)))), ((int)(((byte)(95)))));
-            this.dataGrid.Location = new System.Drawing.Point(31, 163);
+            this.dataGrid.Location = new System.Drawing.Point(51, 158);
             this.dataGrid.Name = "dataGrid";
             this.dataGrid.ReadOnly = true;
             this.dataGrid.RowTemplate.Height = 25;
-            this.dataGrid.Size = new System.Drawing.Size(810, 392);
+            this.dataGrid.Size = new System.Drawing.Size(744, 362);
             this.dataGrid.TabIndex = 13;
             this.dataGrid.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGrid_CellMouseDoubleClick_1);
             // 
             // deleteClientTextBox
             // 
-            this.deleteClientTextBox.Location = new System.Drawing.Point(385, 80);
+            this.deleteClientTextBox.Location = new System.Drawing.Point(336, 80);
             this.deleteClientTextBox.Multiline = true;
             this.deleteClientTextBox.Name = "deleteClientTextBox";
             this.deleteClientTextBox.Size = new System.Drawing.Size(283, 23);
@@ -83,7 +93,7 @@ namespace ClientRecord.Forms
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(204)))), ((int)(((byte)(95)))));
-            this.label2.Location = new System.Drawing.Point(182, 83);
+            this.label2.Location = new System.Drawing.Point(133, 83);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(140, 20);
             this.label2.TabIndex = 10;
@@ -94,29 +104,18 @@ namespace ClientRecord.Forms
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(204)))), ((int)(((byte)(95)))));
-            this.label1.Location = new System.Drawing.Point(385, 9);
+            this.label1.Location = new System.Drawing.Point(336, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(171, 30);
             this.label1.TabIndex = 9;
             this.label1.Text = "Delete Client";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(204)))), ((int)(((byte)(95)))));
-            this.label3.Location = new System.Drawing.Point(385, 140);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(226, 20);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "Please Double Click to Delete";
             // 
             // deleteClientForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(925, 609);
+            this.ClientSize = new System.Drawing.Size(845, 571);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "deleteClientForm";

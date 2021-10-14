@@ -75,9 +75,9 @@ namespace ClientRecord.Forms
             this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.firstNameTextBox);
             this.panel1.Controls.Add(this.label12);
-            this.panel1.Location = new System.Drawing.Point(0, 12);
+            this.panel1.Location = new System.Drawing.Point(0, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(986, 430);
+            this.panel1.Size = new System.Drawing.Size(986, 580);
             this.panel1.TabIndex = 4;
             // 
             // dateTimePicker
@@ -289,7 +289,7 @@ namespace ClientRecord.Forms
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(1007, 454);
+            this.ClientSize = new System.Drawing.Size(988, 582);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ForeColor = System.Drawing.Color.White;

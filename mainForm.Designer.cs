@@ -78,17 +78,16 @@ namespace ClientRecord
             // 
             // button1
             // 
-            this.button1.AutoSize = true;
             this.button1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(204)))), ((int)(((byte)(95)))));
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 720);
+            this.button1.Location = new System.Drawing.Point(0, 734);
             this.button1.Name = "button1";
             this.button1.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.button1.Size = new System.Drawing.Size(255, 57);
+            this.button1.Size = new System.Drawing.Size(207, 57);
             this.button1.TabIndex = 9;
             this.button1.Text = "  Sign Out";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -97,17 +96,16 @@ namespace ClientRecord
             // 
             // addUserButton
             // 
-            this.addUserButton.AutoSize = true;
             this.addUserButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.addUserButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.addUserButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addUserButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(204)))), ((int)(((byte)(95)))));
             this.addUserButton.Image = ((System.Drawing.Image)(resources.GetObject("addUserButton.Image")));
             this.addUserButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.addUserButton.Location = new System.Drawing.Point(0, 429);
+            this.addUserButton.Location = new System.Drawing.Point(0, 334);
             this.addUserButton.Name = "addUserButton";
             this.addUserButton.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.addUserButton.Size = new System.Drawing.Size(265, 57);
+            this.addUserButton.Size = new System.Drawing.Size(207, 53);
             this.addUserButton.TabIndex = 8;
             this.addUserButton.Text = "  Add User";
             this.addUserButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -124,7 +122,7 @@ namespace ClientRecord
             this.homeButton.Location = new System.Drawing.Point(0, 65);
             this.homeButton.Name = "homeButton";
             this.homeButton.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.homeButton.Size = new System.Drawing.Size(207, 73);
+            this.homeButton.Size = new System.Drawing.Size(207, 57);
             this.homeButton.TabIndex = 3;
             this.homeButton.Text = "  Home";
             this.homeButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -137,21 +135,19 @@ namespace ClientRecord
             this.movingPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.movingPanel.Location = new System.Drawing.Point(208, 65);
             this.movingPanel.Name = "movingPanel";
-            this.movingPanel.Size = new System.Drawing.Size(6, 72);
+            this.movingPanel.Size = new System.Drawing.Size(6, 57);
             this.movingPanel.TabIndex = 4;
             // 
             // viewAllButton
             // 
-            this.viewAllButton.AutoSize = true;
-            this.viewAllButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.viewAllButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.viewAllButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(204)))), ((int)(((byte)(95)))));
             this.viewAllButton.Image = ((System.Drawing.Image)(resources.GetObject("viewAllButton.Image")));
             this.viewAllButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.viewAllButton.Location = new System.Drawing.Point(0, 353);
+            this.viewAllButton.Location = new System.Drawing.Point(0, 280);
             this.viewAllButton.Name = "viewAllButton";
             this.viewAllButton.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.viewAllButton.Size = new System.Drawing.Size(370, 57);
+            this.viewAllButton.Size = new System.Drawing.Size(207, 57);
             this.viewAllButton.TabIndex = 7;
             this.viewAllButton.Text = "  View All Client";
             this.viewAllButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -160,16 +156,14 @@ namespace ClientRecord
             // 
             // deleteClientButton
             // 
-            this.deleteClientButton.AutoSize = true;
-            this.deleteClientButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.deleteClientButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.deleteClientButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(204)))), ((int)(((byte)(95)))));
             this.deleteClientButton.Image = ((System.Drawing.Image)(resources.GetObject("deleteClientButton.Image")));
             this.deleteClientButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.deleteClientButton.Location = new System.Drawing.Point(0, 282);
+            this.deleteClientButton.Location = new System.Drawing.Point(0, 228);
             this.deleteClientButton.Name = "deleteClientButton";
             this.deleteClientButton.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.deleteClientButton.Size = new System.Drawing.Size(345, 57);
+            this.deleteClientButton.Size = new System.Drawing.Size(207, 57);
             this.deleteClientButton.TabIndex = 6;
             this.deleteClientButton.Text = "  Delete Client";
             this.deleteClientButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -184,10 +178,10 @@ namespace ClientRecord
             this.updateClientButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(204)))), ((int)(((byte)(95)))));
             this.updateClientButton.Image = ((System.Drawing.Image)(resources.GetObject("updateClientButton.Image")));
             this.updateClientButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.updateClientButton.Location = new System.Drawing.Point(0, 207);
+            this.updateClientButton.Location = new System.Drawing.Point(0, 174);
             this.updateClientButton.Name = "updateClientButton";
             this.updateClientButton.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.updateClientButton.Size = new System.Drawing.Size(363, 78);
+            this.updateClientButton.Size = new System.Drawing.Size(207, 57);
             this.updateClientButton.TabIndex = 5;
             this.updateClientButton.Text = "  Update Client";
             this.updateClientButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -196,17 +190,15 @@ namespace ClientRecord
             // 
             // addClientButton
             // 
-            this.addClientButton.AutoSize = true;
-            this.addClientButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.addClientButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.addClientButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addClientButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(204)))), ((int)(((byte)(95)))));
             this.addClientButton.Image = ((System.Drawing.Image)(resources.GetObject("addClientButton.Image")));
             this.addClientButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.addClientButton.Location = new System.Drawing.Point(0, 135);
+            this.addClientButton.Location = new System.Drawing.Point(0, 117);
             this.addClientButton.Name = "addClientButton";
             this.addClientButton.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
-            this.addClientButton.Size = new System.Drawing.Size(298, 57);
+            this.addClientButton.Size = new System.Drawing.Size(207, 57);
             this.addClientButton.TabIndex = 4;
             this.addClientButton.Text = "  Add Client";
             this.addClientButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -239,7 +231,7 @@ namespace ClientRecord
             this.label.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label.Location = new System.Drawing.Point(54, 9);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(219, 74);
+            this.label.Size = new System.Drawing.Size(89, 30);
             this.label.TabIndex = 0;
             this.label.Text = " CMS  ";
             // 
@@ -255,22 +247,20 @@ namespace ClientRecord
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(204)))), ((int)(((byte)(95)))));
-            this.label2.Location = new System.Drawing.Point(347, 9);
+            this.label2.Location = new System.Drawing.Point(420, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(667, 56);
+            this.label2.Size = new System.Drawing.Size(265, 23);
             this.label2.TabIndex = 0;
             this.label2.Text = "Client Management System";
             // 
             // panel2
             // 
-            this.panel2.AutoSize = true;
             this.panel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel2.Controls.Add(this.exitButton);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Location = new System.Drawing.Point(218, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1504, 65);
+            this.panel2.Size = new System.Drawing.Size(1121, 38);
             this.panel2.TabIndex = 1;
             // 
             // exitButton
@@ -280,7 +270,7 @@ namespace ClientRecord
             this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exitButton.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.exitButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(204)))), ((int)(((byte)(95)))));
-            this.exitButton.Location = new System.Drawing.Point(929, 0);
+            this.exitButton.Location = new System.Drawing.Point(1042, 0);
             this.exitButton.Margin = new System.Windows.Forms.Padding(0);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(76, 27);
@@ -292,7 +282,6 @@ namespace ClientRecord
             // 
             // panelDesktopPane
             // 
-            this.panelDesktopPane.AutoSize = true;
             this.panelDesktopPane.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panelDesktopPane.Controls.Add(this.label4);
             this.panelDesktopPane.Controls.Add(this.label3);
@@ -300,18 +289,18 @@ namespace ClientRecord
             this.panelDesktopPane.Controls.Add(this.textBox1);
             this.panelDesktopPane.Controls.Add(this.label1);
             this.panelDesktopPane.Controls.Add(this.textBox2);
-            this.panelDesktopPane.Location = new System.Drawing.Point(218, 65);
+            this.panelDesktopPane.Location = new System.Drawing.Point(220, 38);
             this.panelDesktopPane.Name = "panelDesktopPane";
-            this.panelDesktopPane.Size = new System.Drawing.Size(1102, 291);
+            this.panelDesktopPane.Size = new System.Drawing.Size(1119, 756);
             this.panelDesktopPane.TabIndex = 2;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(204)))), ((int)(((byte)(95)))));
-            this.label4.Location = new System.Drawing.Point(69, 246);
+            this.label4.Location = new System.Drawing.Point(358, 134);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(384, 45);
+            this.label4.Size = new System.Drawing.Size(148, 20);
             this.label4.TabIndex = 12;
             this.label4.Text = "Total One off Client";
             // 
@@ -319,9 +308,9 @@ namespace ClientRecord
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(204)))), ((int)(((byte)(95)))));
-            this.label3.Location = new System.Drawing.Point(69, 188);
+            this.label3.Location = new System.Drawing.Point(334, 79);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(449, 45);
+            this.label3.Size = new System.Drawing.Size(172, 20);
             this.label3.TabIndex = 10;
             this.label3.Text = "Total Permanent Client";
             // 
@@ -329,9 +318,9 @@ namespace ClientRecord
             // 
             this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Location = new System.Drawing.Point(471, 237);
+            this.textBox3.Location = new System.Drawing.Point(585, 79);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(296, 46);
+            this.textBox3.Size = new System.Drawing.Size(119, 19);
             this.textBox3.TabIndex = 11;
             // 
             // textBox1
@@ -340,9 +329,9 @@ namespace ClientRecord
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(204)))), ((int)(((byte)(95)))));
-            this.textBox1.Location = new System.Drawing.Point(436, 140);
+            this.textBox1.Location = new System.Drawing.Point(585, 130);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(296, 59);
+            this.textBox1.Size = new System.Drawing.Size(119, 24);
             this.textBox1.TabIndex = 7;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -350,9 +339,9 @@ namespace ClientRecord
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(204)))), ((int)(((byte)(95)))));
-            this.label1.Location = new System.Drawing.Point(59, 140);
+            this.label1.Location = new System.Drawing.Point(418, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(232, 45);
+            this.label1.Size = new System.Drawing.Size(88, 20);
             this.label1.TabIndex = 8;
             this.label1.Text = "Total Client";
             // 
@@ -360,19 +349,17 @@ namespace ClientRecord
             // 
             this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Location = new System.Drawing.Point(545, 187);
+            this.textBox2.Location = new System.Drawing.Point(585, 28);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(554, 46);
+            this.textBox2.Size = new System.Drawing.Size(119, 19);
             this.textBox2.TabIndex = 9;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // mainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.AutoSize = true;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(51)))));
-            this.ClientSize = new System.Drawing.Size(1504, 1044);
+            this.ClientSize = new System.Drawing.Size(1339, 794);
             this.Controls.Add(this.panelDesktopPane);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -380,10 +367,10 @@ namespace ClientRecord
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "mainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.mainForm_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.panel1.ResumeLayout(false);
@@ -396,7 +383,6 @@ namespace ClientRecord
             this.panelDesktopPane.ResumeLayout(false);
             this.panelDesktopPane.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -426,6 +412,7 @@ namespace ClientRecord
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button exitButton;
+        private System.Windows.Forms.Panel panel6;
     }
 }
 

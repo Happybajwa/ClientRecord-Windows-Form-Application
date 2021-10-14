@@ -30,7 +30,9 @@ namespace ClientRecord
                 LastName = lastNameTextBox.Text,
                 Password = passTextBox.Text,
                 Gender = genderComboBox.Text,
-
+                DateOfBirth = dateTimePicker.Value,
+                SecurityQuestion = SecurityQuestionCBO.Text,
+                SecurityAnswer =    securityAnswerTextBox.Text,
             };
             if (!passTextBox.Text.Equals(confirmPassTextBox.Text))
             {

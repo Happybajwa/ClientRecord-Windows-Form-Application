@@ -1,4 +1,5 @@
-﻿using ClientRecord.Models;
+﻿using ClientRecord.Forms;
+using ClientRecord.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -56,6 +57,14 @@ namespace ClientRecord
         private void exitButton_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void forgotLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            passwordResetFormcs formpass = new();
+            this.Hide();
+            formpass.ShowDialog();
+
         }
     }
 }

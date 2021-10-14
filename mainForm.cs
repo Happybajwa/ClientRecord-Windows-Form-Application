@@ -114,7 +114,7 @@ namespace ClientRecord
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             ApplicationDbContext model = new();
-            int count = model.Clients.Where(c => c.Type.Equals("Parmanent")).ToList().Count;
+            int count = model.Clients.Where(c => c.Type.Equals("Permanent")).ToList().Count;
             textBox1.Text = count.ToString();
 
         }
@@ -127,7 +127,7 @@ namespace ClientRecord
         private void mainForm_Load(object sender, EventArgs e)
         {
             ApplicationDbContext model = new();
-            int count = model.Clients.Where(c => c.Type.Equals("Parmanent")).ToList().Count;
+            int count = model.Clients.Where(c => c.Type.Equals("Permanent")).ToList().Count;
             textBox1.Text = count.ToString();
         }
     }
